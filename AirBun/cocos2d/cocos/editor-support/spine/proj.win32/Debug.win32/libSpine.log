@@ -1,0 +1,84 @@
+﻿  Animation.c
+  AnimationState.c
+  AnimationStateData.c
+  Array.c
+  Atlas.c
+  AtlasAttachmentLoader.c
+  Attachment.c
+  AttachmentLoader.c
+  Bone.c
+  BoneData.c
+  BoundingBoxAttachment.c
+  ClippingAttachment.c
+  Color.c
+  Event.c
+  EventData.c
+  extension.c
+  IkConstraint.c
+  IkConstraintData.c
+  Json.c
+  MeshAttachment.c
+  PathAttachment.c
+  PathConstraint.c
+  PathConstraintData.c
+  PointAttachment.c
+  RegionAttachment.c
+  Skeleton.c
+  SkeletonBinary.c
+  SkeletonBounds.c
+  SkeletonClipping.c
+  SkeletonData.c
+  SkeletonJson.c
+  Skin.c
+  Slot.c
+  SlotData.c
+  TransformConstraint.c
+  TransformConstraintData.c
+  Triangulator.c
+  VertexAttachment.c
+  VertexEffect.c
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletonbinary.c(310): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletonbinary.c(372): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletonbinary.c(484): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletonbinary.c(649): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletonbinary.c(652): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletonjson.c(97): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  AttachmentVertices.cpp
+  Cocos2dAttachmentLoader.cpp
+  SkeletonAnimation.cpp
+  SkeletonBatch.cpp
+  SkeletonRenderer.cpp
+  SkeletonTwoColorBatch.cpp
+  spine-cocos2dx.cpp
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\AttachmentVertices.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Cocos2dAttachmentLoader.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\spine-cocos2dx.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\spine-cocos2dx.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\AttachmentVertices.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Cocos2dAttachmentLoader.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonAnimation.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonAnimation.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonTwoColorBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonTwoColorBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonRenderer.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonRenderer.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonAnimation.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\spine-cocos2dx.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Cocos2dAttachmentLoader.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\AttachmentVertices.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonTwoColorBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonRenderer.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\AttachmentVertices.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonAnimation.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\spine-cocos2dx.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Cocos2dAttachmentLoader.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonRenderer.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\SkeletonTwoColorBatch.cpp)
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletonbatch.cpp(110): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletontwocolorbatch.cpp(237): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\cocos\editor-support\spine\skeletontwocolorbatch.cpp(274): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  libSpine.vcxproj -> D:\dev\ccos_dev\cocos2d_x_playground\AirBun\proj.win32\Debug.win32\libSpine.lib

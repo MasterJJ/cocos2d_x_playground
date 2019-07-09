@@ -1,0 +1,19 @@
+﻿  DebugDraw.cpp
+  DetourDebugDraw.cpp
+  DetourCrowd.cpp
+  DetourLocalBoundary.cpp
+  DetourObstacleAvoidance.cpp
+  DetourPathCorridor.cpp
+  DetourPathQueue.cpp
+  DetourProximityGrid.cpp
+  DetourTileCache.cpp
+  DetourTileCacheBuilder.cpp
+  DetourAlloc.cpp
+  DetourCommon.cpp
+d:\dev\ccos_dev\cocos2d_x_playground\airbun\cocos2d\external\recast\detourcrowd\detourobstacleavoidance.cpp(334): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  fastlz.c
+  librecast.vcxproj -> D:\dev\ccos_dev\cocos2d_x_playground\AirBun\proj.win32\Debug.win32\librecast.lib
