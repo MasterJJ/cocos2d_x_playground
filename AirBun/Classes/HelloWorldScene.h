@@ -27,6 +27,14 @@
 
 #include "cocos2d.h"
 
+
+enum SEQUENCE_RENDER_
+{
+	SEQUENCE_RENDER_MAP,
+	SEQUENCE_RENDER_MAX,
+};
+
+
 class HelloWorld : public cocos2d::Scene
 {
 public:
@@ -41,6 +49,8 @@ public:
 	void doClick1(Ref* sender);
 	void doClick2(Ref* sender);
 	void doClick3(Ref* sender);
+
+	void initBackGroundMap();
 };
 
 #endif // __HELLOWORLD_SCENE_H__
