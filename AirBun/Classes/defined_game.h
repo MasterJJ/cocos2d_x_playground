@@ -1,0 +1,6 @@
+#pragma once
+enum SEQUENCE_RENDER_
+{
+	SEQUENCE_RENDER_MAP,
+	SEQUENCE_RENDER_MAX,
+};

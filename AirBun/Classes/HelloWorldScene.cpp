@@ -24,6 +24,7 @@
 
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "GameScene.h"
 
 USING_NS_CC;
 
@@ -57,7 +58,7 @@ bool HelloWorld::init()
 	auto pMenuItem1 = MenuItemImage::create(
 		"Images/btn-play-normal.png",
 		"Images/btn-play-selected.png",
-		CC_CALLBACK_1(HelloWorld::doClick1, this));
+		CC_CALLBACK_1(HelloWorld::doChangeScene, this));
 
 	auto pMenuItem2 = MenuItemImage::create(
 		"Images/btn-highscores-normal.png",
@@ -91,6 +92,28 @@ void HelloWorld::doClick2(Ref* sender) {
 void HelloWorld::doClick3(Ref* sender) {
 	log("Select doClick3");
 
+}
+
+void HelloWorld::doChangeScene(Ref* pSender)
+{
+	// 두번째 장면
+	auto pScene = GameScene::createScene();
+	Director::getInstance()->replaceScene(pScene);
+	
+}
+
+void HelloWorld::onEnterTransitionDidFinish()
+{
+	Scene::onEnterTransitionDidFinish();
+
+	log("HelloWorld :: onEnterTransitionDidFinish");
+}
+
+void HelloWorld::onExitTransitionDidStart()
+{
+	Scene::onExitTransitionDidStart();
+
+	log("HelloWorld :: onExitTransitionDidStart");
 }
 
 void HelloWorld::initBackGroundMap() {

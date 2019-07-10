@@ -26,13 +26,8 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "defined_game.h"
 
-
-enum SEQUENCE_RENDER_
-{
-	SEQUENCE_RENDER_MAP,
-	SEQUENCE_RENDER_MAX,
-};
 
 
 class HelloWorld : public cocos2d::Scene
@@ -51,6 +46,11 @@ public:
 	void doClick3(Ref* sender);
 
 	void initBackGroundMap();
+
+	void doChangeScene(Ref* pSender);
+	void onEnterTransitionDidFinish();
+	void onExitTransitionDidStart();
+
 };
 
 #endif // __HELLOWORLD_SCENE_H__
