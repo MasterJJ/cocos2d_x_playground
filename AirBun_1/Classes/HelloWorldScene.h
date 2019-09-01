@@ -26,6 +26,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "Joystick.h"
 USING_NS_CC;
 
 
@@ -104,8 +105,13 @@ public:
     
     
 private:
-    
+   
+    Joystick* _joystick;
     Size _wsize;  // window size
+
+    void initJoystick();
+    
+    
     
     
     // implement the "static create()" method manually

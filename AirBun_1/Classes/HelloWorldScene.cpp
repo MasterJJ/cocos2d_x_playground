@@ -26,8 +26,7 @@
 
 #include "sound_base.hpp"
 
-USING_NS_CC;
-USING_NS_CC;
+#define USE_JOYSTICK_MODE 1
 
 USING_NS_CC;
 
@@ -50,6 +49,15 @@ static void problemLoading(const char* filename)
     printf("Error while loading: %s\n", filename);
     printf("Depending on how you compiled you might have to add 'Resources/' in front of filenames in HelloWorldScene.cpp\n");
 }
+
+void HelloWorld::initJoystick() {
+    _joystick = Joystick::create();
+    
+    this->addChild(_joystick, 2);
+    _joystick->setVisible(false);
+    return;
+}
+
 
 // on "init" you need to initialize your instance
 bool HelloWorld::init()
@@ -77,7 +85,11 @@ bool HelloWorld::init()
     initTitle();
     
     init_gameover();
+ 
+#if USE_JOYSTICK_MODE
     
+    initJoystick();
+#endif
     _sound_base.intro_play();
     
     return true;
@@ -287,6 +299,8 @@ void HelloWorld::resetMissile(Ref *sender) {
 
 // user reset
 void HelloWorld::reset_user() {
+    _joystick->setVisible(false);
+    
     _sound_base.play_effect("explosion.wav");
     
     _user_die = false;
@@ -579,6 +593,42 @@ void HelloWorld::update(float delta) {
     
     
     
+    // move user
+#if USE_JOYSTICK_MODE
+    auto spr = (Sprite*)this->getChildByTag(TAG_USER);
+
+    float width = spr->getContentSize().width / 2;
+    float height = spr->getContentSize().height / 2;
+    
+    float vx = spr->getPosition().x + _joystick->getVelocity().x * 10;
+    float vy = spr->getPosition().y + _joystick->getVelocity().y * 10;
+    
+    if ((vx < width) || (vx >(480 - width)))
+    {
+        vx = spr->getPosition().x;
+    }
+    
+    if ((vy < height) || (vy >(320 - height)))
+    {
+        vy = spr->getPosition().y;
+    }
+
+    spr->setPosition(Point(vx, vy));
+   
+/*
+    Vec2 pos = spr->getPosition();
+    Vec2 location = touch->getLocation();
+    float distance = sqrtf((location.x - pos.x) * (location.x - pos.x) + (location.y - pos.y) * (location.y - pos.y));
+    auto action = MoveTo::create(distance / 500, location);
+    action->setTag(TAG_USER_MOVE);
+    spr->runAction(action);
+  */
+#endif
+    
+    
+    
+    
+    
     delta = 0;
     //
     return;
@@ -647,7 +697,7 @@ bool HelloWorld::onTouchBegan(Touch* touch, Event* unused_event) {
     
     if (_gameOver) {
         resetGameover();
-        
+        _joystick->setVisible(true);
         return true;
         
     } else if (_user_die) {
@@ -655,21 +705,30 @@ bool HelloWorld::onTouchBegan(Touch* touch, Event* unused_event) {
         return true;
     }  else if (_titleOn) {
         setTitle();
+        _joystick->setVisible(true);
         return true;
     }
     
     
+
+
+    
+#if USE_JOYSTICK_MODE
+
+#else
     auto spr = (Sprite*)this->getChildByTag(TAG_USER);
     if (spr->getActionByTag(TAG_USER_MOVE)) {
         spr->stopActionByTag(TAG_USER_MOVE);
     }
-
+    
     Vec2 pos = spr->getPosition();
     Vec2 location = touch->getLocation();
     float distance = sqrtf((location.x - pos.x) * (location.x - pos.x) + (location.y - pos.y) * (location.y - pos.y));
     auto action = MoveTo::create(distance / 500, location);
     action->setTag(TAG_USER_MOVE);
     spr->runAction(action);
+#endif
+    
     
     return true;
 }
